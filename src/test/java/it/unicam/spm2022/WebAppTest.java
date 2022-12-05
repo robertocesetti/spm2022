@@ -36,7 +36,7 @@ public class WebAppTest {
 
     @Test
     void checkWebPageTitle() throws InterruptedException {
-        driver.get("http://localhost:8080/maven-web-app/");
+        driver.get("http://localhost:8080/spm2022");
         Thread.sleep(2000);
 
         String title = driver.getTitle();
